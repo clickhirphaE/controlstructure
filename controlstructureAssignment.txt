@@ -1,0 +1,61 @@
+
+	1)	initialize tax exempt to 0.0
+		initialize state tax only to 0.03
+		initialize federal and state tax to 0.05
+		initialize special sales tax to 0.07
+		declare name to empty
+     Ask users for name
+        read customers name 
+	 Ask for purchase amount
+         input purchase amount 
+	 Ask for tax code with specified item purchased
+         read tax code
+		 /* Translation code  "E": tax exempt
+		                      "S": state only tax
+							  "F": federal and state tax
+							  "S": special tax 
+	case: E
+	    multiply purchase amount by tax exempt
+		Assign to total_sum
+	case: S
+	    multiply purchase amount by state tax
+        Assign the total to total_sum
+    case: F:
+        multiply purchase amount by federal tax
+        Assign to total_sum
+    case S:
+         multiply purchase amount by special tax
+         Assign to the total_sum
+
+end
+     display customers name 
+	   display total_sum
+	  display sale_tax
+	  display due amount
+	 
+    2)
+initialize employees_number to 0
+initialize employees pay rate to 0
+initialize number of hours worked to 0
+initialize employees weekly_pay=0.0
+     	const define max hour to 60
+		const define maximum hourly rate to $25.00
+	Read employees number
+	Read pay rate for the employees
+	Read hours worked 
+if (employee number is equal to employees_number )	
+     then 
+	   if (hours worked is less or equal to 35 && maximum hourly rate is less than or equal to 25.00)
+	     then weekly_pay_withoutovertime=pay rate* hours worked;
+	      else
+		  if (hours worked is greater than 35 && maximum hourly rate is less than or equal to 25.00
+		  overtime_hours=60hr minus hours worked 
+		   then 
+		   
+		   weekly_pay =weekly_pay_withoutovertime +overtime_hours*1/2 payrate 
+	else
+	display the the input is out of range 
+	  
+	 
+	   
+	   
